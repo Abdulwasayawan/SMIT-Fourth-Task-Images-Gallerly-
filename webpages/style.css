@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: rgb(3, 3, 3);
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  header {
+    padding: 1.5rem;
+    background-color: rgb(19, 112, 108);
+    margin-bottom: 1.1rem;
+    position: sticky;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .links {
+    /* border:1px solid red ; */
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .links a:hover {
+    border-bottom: 2px solid black; 
+  }
+  .logo h3{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .About_Images h1{
+    color: white;
+    font-size: 3.2rem;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 2rem ;
+
+  }
+  .About_Images{
+    padding-bottom: 1.5rem;
+  }
+  .About_Images figcaption{
+    font-family: sans-serif;
+  }
+  .About_Images  figure{
+    padding-top: 1.5rem;
+  }
+  figcaption{
+    color: white;
+    
+  }
+  .Design{
+    display: flex;
+    justify-content: space-around;
+  }
